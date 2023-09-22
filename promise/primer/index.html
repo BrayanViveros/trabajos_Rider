@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div> <h1>INFORME DE NOTAS</h1> <br></div>
+
+    <div>
+        <label for="nota1">Nota1:</label>
+        <input type="number" id="nota1"> <br><br>
+
+        <label for="nota2">Nota2:</label>
+        <input type="number" id="nota2"><br><br>
+
+        <label for="nota3">Nota3:</label>
+        <input type="number" id="nota3"><br><br>
+
+        <button id="calcular" onclick="minota(nota1.value, nota2.value, nota3.value)">Calcular</button>
+    </div>
+
+    <div id="resultado">
+        <p>Nota Final:</p>
+        <p id="nota-final"></p>
+    </div>
+      
+
+    <!-- <script src="script.js"></script> -->
+    <script src="script02.js"></script>
+</body>
+</html>
